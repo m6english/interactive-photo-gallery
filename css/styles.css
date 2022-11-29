@@ -1,0 +1,21 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, min-content);
+    gap: 20px;
+    padding: 2%;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    padding-top: 2%;
+}
+
+.search {
+    padding: 10px;
+    width: 65vw;
+    margin: auto;
+    border: 2px lightgray solid;
+    border-radius: 5px;
+}
+
